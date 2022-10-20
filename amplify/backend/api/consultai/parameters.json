@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "consultai",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
