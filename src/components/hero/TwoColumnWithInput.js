@@ -8,7 +8,7 @@ import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
-import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
+import CustomersLogoStripImage from "../../images/aws-data-exchange-logo.png";
 
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
@@ -53,18 +53,17 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+              Consult AI <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              Machine Learning based AI Tool to help your business.
             </Paragraph>
             <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
+              <input type="text" placeholder="Location" />
               <button>Get Started</button>
             </Actions>
             <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
+              <p>Powered by</p>
               <img src={CustomersLogoStripImage} alt="Our Customers" />
             </CustomersLogoStrip>
           </LeftColumn>
