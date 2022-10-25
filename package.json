@@ -4,13 +4,26 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^3.5.9",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aws-amplify": "^4.3.39",
+    "feather-icons": "^4.29.0",
+    "framer-motion": "^7.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-btn": "^1.4.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6",
+    "tailwindcss": "^3.2.1",
+    "twin.macro": "^2.8.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -36,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0"
   }
 }
