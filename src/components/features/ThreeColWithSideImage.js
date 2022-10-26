@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "We use Real-Time Data and Machine Learning Algorithm to come up with the best business strategy for you." }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -68,16 +68,29 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
    */
 
   const defaultCards = [
+    { imageSrc: SimpleIconImage, title: "Easy",
+    description: "Find your optimal business strategy in a matter of few clicks." 
+    },
+    { imageSrc: CustomizeIconImage, 
+      title: "Customizable",
+      description: "Fully customizable output based on your geographical location or business industry"
+    },
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "Amazon AWS ."
+      description: "All data flowing across the AWS global network is automatically encrypted at the physical layer."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: ReliableIconImage, title: "Reliable",
+      description: "AWS cloud provides reliable company access to critical data and applications." 
+    },
+    { imageSrc: FastIconImage, 
+      title: "Fast",
+      description: "AWS Data Exchange enables deployment of technology services in a matter of minutes." 
+    },
+    { imageSrc: SupportIconImage, 
+      title: "Support",
+      description: "See About page for further details"
+    },
   ];
 
   if (!cards) cards = defaultCards;

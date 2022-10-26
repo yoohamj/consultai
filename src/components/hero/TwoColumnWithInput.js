@@ -56,7 +56,7 @@ export default ({ roundedHeaderButton }) => {
               Consult AI <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-              Machine Learning based AI Tool to help your business.
+              Artificial Intelligence combined with Real Time Database to find the best business strategy for you.
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Location" />

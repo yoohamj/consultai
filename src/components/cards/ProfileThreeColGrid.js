@@ -41,13 +41,13 @@ const CardLinks = styled.div`
 `
 
 export default ({
-  heading = "Meet These Fine Folks.",
+  heading = "Happy to meet you.",
   subheading = "Our Team",
-  description = "I am a student at University of Toronto.",
+  description = "We are the participants of the AWS Data Exchange for APIs Challenge",
   cards = [
     {
-      imageSrc: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&fit=facearea&facepad=2.95&w=512&h=512&q=80",
-      position: "Founder",
+      imageSrc: "https://media-exp1.licdn.com/dms/image/C5103AQFejZLkqSPKXQ/profile-displayphoto-shrink_800_800/0/1517103793919?e=1672272000&v=beta&t=w07VprezQ0D27ivM9bNtlyNTqWD7dGT-Sjz3cf2jbmc",
+      position: "Full Stack Developer",
       name: "Yooham Jung",
       links: [
         {
